@@ -1,0 +1,6 @@
+minio:
+  root:
+    user: ${MINIO_ROOT_USER:admin}
+    password: ${MINIO_ROOT_PASSWORD:password}
+  endpoint: ${MINIO_ENDPOINT:http://minio:9000}
+
